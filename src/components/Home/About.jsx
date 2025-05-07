@@ -15,19 +15,19 @@ const About = () => {
           <div className="about-card">
             <img src="/images/anasayfa/1.png" alt="kuyruk" />
             <h3>Yemeğinize ulaşmak için uzun kuyruklar beklemeyin</h3>
-            <p>Sıra derdinizi ve bekleme sürenizi minimuma indirin.</p>
+            <p>Hem sıra derdinizi hem de sipariş bekleme sürenizi minimum düzeyde tutun.</p>
           </div>
 
           <div className="about-card">
             <img src="/images/anasayfa/2.png" alt="sipariş kontrol" />
-            <h3>Online siparişlerle hataları azaltın</h3>
-            <p>Sipariş takibi ekranınızda!</p>
+            <h3>Online siparişler ile sipariş hatalarını en aza indirgeyin</h3>
+            <p>Siparişinizde eksik veya yanlış giden şeyleri ekranınızda takip edin.</p>
           </div>
 
           <div className="about-card">
             <img src="/images/anasayfa/3.png" alt="esneklik" />
-            <h3>Dilediğiniz zaman sipariş verin</h3>
-            <p>Sipariş oluşturun, zamanınızı yönetin.</p>
+            <h3>Dilediğiniz zaman sipariş verin, yemek saatlerinizi kendiniz belirleyin.</h3>
+            <p>Sisteme istediğiniz zaman girerek sipariş oluşturabilir,yemek saatlerinizi planlayabilirsiniz.</p>
           </div>
         </div>
       </div>
