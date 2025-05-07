@@ -6,7 +6,7 @@ const About = () => {
     <section className="about" id="about">
       <div className="about-heading">
         <h2>Biz Kimiz</h2>
-        <p>Siparişin Hazır ekibi olarak, öğrencilerin kampüs hayatını kolaylaştırmayı amaçlayan yenilikçi çözümler geliştiriyoruz</p>
+        <p>Siparişin Hazır ekibi olarak, öğrencilerin kampüs hayatını kolaylaştırmayı amaçlayan yenilikçi çözümler geliştiriyoruz. Amacımız; yemek saatlerinde oluşan kalabalık ve zaman kaybını ortadan kaldırmak, teknolojiyi kullanarak daha konforlu bir kampüs deneyimi sunmaktır.</p>
       </div>
 
       <div className="about-content">
