@@ -9,12 +9,12 @@ const Contact = () => {
         <div className="form">
           <div className="contact-info">
             <h3 className="title">Bizimle İletişime Geç</h3>
-            <p className="text">Görüş, öneri veya sorularınız için bize ulaşın!</p>
+            <p className="text">Görüş, öneri veya herhangi bir sorunuz varsa bizimle paylaşmaktan çekinmeyin!</p>
 
             <div className="info">
               <div className="information">
                 <img src="/images/anasayfa/location.png" className="icon" alt="" />
-                <p>İstanbul Sabahattin Zaim Üniversitesi, Halkalı/İstanbul</p>
+                <p>İstanbul Sabahattin Zaim Üniversitesi Kampüs,Halkalı Merkez, Halkalı, 34303 Küçükçekmece/İstanbul</p>
               </div>
               <div className="information">
                 <img src="/images/anasayfa/email.png" className="icon" alt="" />
