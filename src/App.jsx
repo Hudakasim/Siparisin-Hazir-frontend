@@ -8,8 +8,12 @@ import YesenMenu from './pages/menu/YesenMenu';
 import Login from "./pages/Login";
 import Sepet from './pages/Sepet';
 import Orders from './pages/Orders';
+<<<<<<< HEAD
 import ResetPassword from "./pages/ResetPassword";
 
+=======
+import AdminMenuEditor from "./pages/AdminPanel";
+>>>>>>> 15504a0510f289f7e1c0d1302895fc7c3a0e6d6e
 import './styles/style.css';
 
 // Background kontrolü yapan component
@@ -60,9 +64,14 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/sepet" element={<Sepet />} />
 		  <Route path="/orders" element={<Orders />} />
+<<<<<<< HEAD
       <Route path="/reset-password" element={<ResetPassword />} />
 
         </Routes>
+=======
+		  <Route path="/admin-menu/:menuName" element={<AdminMenuEditor />} />
+		</Routes>
+>>>>>>> 15504a0510f289f7e1c0d1302895fc7c3a0e6d6e
       </BackgroundManager>
     </Router>
   );

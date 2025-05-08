@@ -7,10 +7,29 @@
       "password": "8520"
     },
     {
+<<<<<<< HEAD
       "id": "0ed6",
       "username": "Fatma Çiçek",
       "email": "fatmacicek139@gmail.com",
       "password": "fatmacicek"
+=======
+      "id": "4bf3",
+      "username": "Aker",
+      "email": "admin@example.com",
+      "password": "1234"
+    },
+    {
+      "id": "b73e",
+      "username": "aker cafe",
+      "email": "aker@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "4d62",
+      "username": "Yesen",
+      "email": "yesen@gmail.com",
+      "password": "1234"
+>>>>>>> 15504a0510f289f7e1c0d1302895fc7c3a0e6d6e
     }
   ],
   "cart": [],
