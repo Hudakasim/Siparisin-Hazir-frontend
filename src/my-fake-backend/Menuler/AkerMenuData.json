@@ -1,0 +1,691 @@
+{
+  "akermenu": {
+    "Kahvaltı": [
+      {
+        "id": 1,
+        "name": "Omlet",
+        "price": "80000,00₺",
+        "image": "/images/aker/kahvalti/omlet.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 2,
+        "name": "Menemen",
+        "price": "90,00₺",
+        "image": "/images/aker/kahvalti/menemen.jpg",
+        "type": "menu"
+      },
+      {
+        "id": 3,
+        "name": "Kahvaltı Tabağı",
+        "price": "170,00₺",
+        "image": "/images/aker/kahvalti/kahvalti.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 4,
+        "name": "Sandvich",
+        "price": "65,00₺",
+        "image": "/images/aker/kahvalti/sandwich.jpg",
+        "type": "menu"
+      },
+      {
+        "id": 5,
+        "name": "Tost",
+        "price": "90,00₺",
+        "image": "/images/aker/kahvalti/tost.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 6,
+        "name": "Gözleme",
+        "price": "100,00₺",
+        "image": "/images/aker/kahvalti/gozleme.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 7,
+        "name": "Fırın Ürünleri",
+        "price": "20,00₺",
+        "image": "/images/aker/kahvalti/firin.png",
+        "type": "menu"
+      }
+    ],
+    "Atıştırmalık": [
+      {
+        "id": 8,
+        "name": "Patso",
+        "price": "70,00₺",
+        "image": "/images/aker/atistirmalik/patso.jpg",
+        "type": "menu"
+      },
+      {
+        "id": 9,
+        "name": "Patates",
+        "price": "90,00₺",
+        "image": "/images/aker/atistirmalik/patates.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 10,
+        "name": "Soğan Halkası",
+        "price": "75,00₺",
+        "image": "/images/aker/atistirmalik/sogan-halkasi.jpg",
+        "type": "menu"
+      },
+      {
+        "id": 11,
+        "name": "Kombo Sepeti",
+        "price": "140,00₺",
+        "image": "/images/aker/atistirmalik/kombo.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 12,
+        "name": "Etli Sandvich",
+        "price": "",
+        "image": "/images/aker/atistirmalik/sandvich.jpeg",
+        "type": "menu"
+      }
+    ],
+    "Dürüm": [
+      {
+        "id": 13,
+        "name": "Şinitzel Dürüm",
+        "price": "120,00₺",
+        "image": "/images/aker/durum/sinitzel.jpg",
+        "type": "menu"
+      },
+      {
+        "id": 14,
+        "name": "Mantarlı Tavuk Dürüm",
+        "price": "145,00₺",
+        "image": "/images/aker/durum/mantarliTavuk.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 15,
+        "name": "Döner Dürüm",
+        "price": "120,00₺",
+        "image": "/images/aker/durum/doner.jpg",
+        "type": "menu"
+      },
+      {
+        "id": 16,
+        "name": "Nugget Dürüm",
+        "price": "120,00₺",
+        "image": "/images/aker/durum/nuggetSandvich.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 17,
+        "name": "Köfte Dürüm",
+        "price": "150,00₺",
+        "image": "/images/aker/durum/kofte.png",
+        "type": "menu"
+      },
+      {
+        "id": 18,
+        "name": "Çıtır Tavuk Dürüm",
+        "price": "145,00₺",
+        "image": "/images/aker/durum/citir-durum-pasaport-pizza-akcay-.jpg",
+        "type": "menu"
+      }
+    ],
+    "Ana Yemek": [
+      {
+        "id": 19,
+        "name": "Izgara Köfte Tabak",
+        "price": "210,00₺",
+        "image": "/images/aker/ana_yemekler/izgara-kofte-09.jpg",
+        "type": "menu"
+      },
+      {
+        "id": 20,
+        "name": "Piliç Izgara",
+        "price": "180,00₺",
+        "image": "/images/aker/ana_yemekler/pilic.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 21,
+        "name": "Piliç Şinitzel",
+        "price": "140,00₺",
+        "image": "/images/aker/ana_yemekler/sintizel.jpg",
+        "type": "menu"
+      },
+      {
+        "id": 22,
+        "name": "Köri Soslu Tavuk",
+        "price": "190,00₺",
+        "image": "/images/aker/ana_yemekler/kori.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 23,
+        "name": "Soya Soslu Tavuk",
+        "price": "190,00₺",
+        "image": "/images/aker/ana_yemekler/soya.jpg",
+        "type": "menu"
+      },
+      {
+        "id": 24,
+        "name": "Pilav Üstü Döner",
+        "price": "150,00₺",
+        "image": "/images/aker/ana_yemekler/pilavDoner.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 25,
+        "name": "Acılı Moğol Tavuk",
+        "price": "190,00₺",
+        "image": "/images/aker/ana_yemekler/mogolTavuk.jpg",
+        "type": "menu"
+      },
+      {
+        "id": 26,
+        "name": "Çıtır Tavuk Tabak",
+        "price": "180,00₺",
+        "image": "/images/aker/ana_yemekler/citir.jpg",
+        "type": "menu"
+      },
+      {
+        "id": 27,
+        "name": "Nugget Tabak",
+        "price": "140,00₺",
+        "image": "/images/aker/ana_yemekler/nugget.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 28,
+        "name": "Arabiata Soslu Makarna",
+        "price": "140,00₺",
+        "image": "/images/aker/ana_yemekler/arabiata.jpg",
+        "type": "menu"
+      },
+      {
+        "id": 29,
+        "name": "Krema - Mantar Tavuk",
+        "price": "180,00₺",
+        "image": "/images/aker/ana_yemekler/kremaMantar.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 30,
+        "name": "Mantı",
+        "price": "120,00₺",
+        "image": "/images/aker/ana_yemekler/mant.jpg",
+        "type": "menu"
+      }
+    ],
+    "Pizza ve Hamburger": [
+      {
+        "id": 32,
+        "name": "Karışık Pizza",
+        "price": "165,00₺",
+        "image": "/images/aker/pizza_hamburger/pizza-karisik2.jpg",
+        "type": "menu"
+      },
+      {
+        "id": 33,
+        "name": "Sebzeli Pizza",
+        "price": "150,00₺",
+        "image": "/images/aker/pizza_hamburger/sebzeliPizza.jpg",
+        "type": "menu"
+      },
+      {
+        "id": 34,
+        "name": "Margarita",
+        "price": "150,00₺",
+        "image": "/images/aker/pizza_hamburger/margarita.jpg",
+        "type": "menu"
+      },
+      {
+        "id": 35,
+        "name": "Hamburger",
+        "price": "140,00₺",
+        "image": "/images/aker/pizza_hamburger/hamburger.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 36,
+        "name": "Tavuk Burger",
+        "price": "105,00₺",
+        "image": "/images/aker/pizza_hamburger/tavukBurger.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 37,
+        "name": "Cheeseburger",
+        "price": "150,00₺",
+        "image": "/images/aker/pizza_hamburger/cheeseburger.jpg",
+        "type": "menu"
+      }
+    ],
+    "Salatalar": [
+      {
+        "id": 38,
+        "name": "Tonbalıklı Salata",
+        "price": "125,00₺",
+        "image": "/images/aker/salatalar/ton.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 39,
+        "name": "Tavuklu Salata",
+        "price": "150,00₺",
+        "image": "/images/aker/salatalar/tavuk.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 40,
+        "name": "Akdeniz Salatası",
+        "price": "100,00₺",
+        "image": "/images/aker/salatalar/akdeniz.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 41,
+        "name": "Mevsim Salata",
+        "price": "100,00₺",
+        "image": "/images/aker/salatalar/mevsim.jpeg",
+        "type": "menu"
+      },
+      {
+        "id": 42,
+        "name": "Çoban Salata",
+        "price": "100,00₺",
+        "image": "/images/aker/salatalar/coban.jpeg",
+        "type": "menu"
+      }
+    ]
+  },
+  "coffeemenu": {
+    "Soğuk Kahveler": [
+      {
+        "id": 1,
+        "name": "Iced Americano",
+        "price": "90,00₺",
+        "image": "/images/coffee/ICED CAFFE AMERICANO.jpg",
+        "type": "drink"
+      },
+      {
+        "id": 2,
+        "name": "Iced Caffe Latte",
+        "price": "145,00₺",
+        "image": "/images/coffee/ICED CAFFE LATTE.jpg",
+        "type": "drink"
+      },
+      {
+        "id": 3,
+        "name": "Caramel Macchiato",
+        "price": "190,00₺",
+        "image": "/images/coffee/ICED CARAMEL MACCHIATO.jpg",
+        "type": "drink"
+      },
+      {
+        "id": 4,
+        "name": "Filter Coffee",
+        "price": "100,00₺",
+        "image": "/images/coffee/ICED FILTER COFFEE.jpg",
+        "type": "drink"
+      },
+      {
+        "id": 5,
+        "name": "Iced Mocha",
+        "price": "190,00₺",
+        "image": "/images/coffee/ICED MOCHA.jpg",
+        "type": "drink"
+      },
+      {
+        "id": 6,
+        "name": "White Mocha",
+        "price": "190,00₺",
+        "image": "/images/coffee/ICED WHITE MOCHA.jpg",
+        "type": "drink"
+      }
+    ],
+    "Sıcak Kahveler": [
+      {
+        "id": 7,
+        "name": "Americano",
+        "price": "90,00₺",
+        "image": "/images/coffee/Americano.jpg",
+        "type": "drink"
+      },
+      {
+        "id": 8,
+        "name": "Cappuccino",
+        "price": "135,00₺",
+        "image": "/images/coffee/Cappuccino.jpg",
+        "type": "drink"
+      },
+      {
+        "id": 9,
+        "name": "Caramel Macchiato",
+        "price": "155,00₺",
+        "image": "/images/coffee/CARAMEL MACCHIATO.jpg",
+        "type": "drink"
+      },
+      {
+        "id": 10,
+        "name": "Espresso",
+        "price": "80,00₺",
+        "image": "/images/coffee/Espresso.jpg",
+        "type": "drink"
+      },
+      {
+        "id": 11,
+        "name": "Filter Coffee",
+        "price": "100,00₺",
+        "image": "/images/coffee/filtreCoffee.jpg",
+        "type": "drink"
+      },
+      {
+        "id": 12,
+        "name": "Coffee Latte",
+        "price": "130,00₺",
+        "image": "/images/coffee/Latte.jpg",
+        "type": "drink"
+      },
+      {
+        "id": 13,
+        "name": "Türk Kahvesi",
+        "price": "90,00₺",
+        "image": "/images/coffee/TÜRK KAHVESİ.jpg",
+        "type": "drink"
+      }
+    ],
+    "Refresher's": [
+      {
+        "id": 14,
+        "name": "Acia Berry Refresher",
+        "price": "200,00₺",
+        "image": "/images/coffee/Acia-Berry.png",
+        "type": "drink"
+      },
+      {
+        "id": 15,
+        "name": "Lime Refresher",
+        "price": "200,00₺",
+        "image": "/images/coffee/Lime.png",
+        "type": "drink"
+      },
+      {
+        "id": 16,
+        "name": "Mango Refresher",
+        "price": "200,00₺",
+        "image": "/images/coffee/Mango.png",
+        "type": "drink"
+      },
+      {
+        "id": 17,
+        "name": "Veri-Berry Refresher",
+        "price": "200,00₺",
+        "image": "/images/coffee/Ver-Berry.png",
+        "type": "drink"
+      }
+    ],
+    "Fruit & Cream Beverage": [
+      {
+        "id": 18,
+        "name": "Italian Cream",
+        "price": "200,00₺",
+        "image": "/images/coffee/Italian-Cream.png",
+        "type": "drink"
+      },
+      {
+        "id": 19,
+        "name": "Coconut Cream",
+        "price": "200,00₺",
+        "image": "/images/coffee/CoconutCream.png",
+        "type": "drink"
+      },
+      {
+        "id": 20,
+        "name": "Chocolate Cream",
+        "price": "200,00₺",
+        "image": "/images/coffee/Chocolate-Cream.png",
+        "type": "drink"
+      },
+      {
+        "id": 21,
+        "name": "Strawberry Chocolate Cream",
+        "price": "200,00₺",
+        "image": "/images/coffee/Strawberry's-chocolate-Cream.png",
+        "type": "drink"
+      },
+      {
+        "id": 22,
+        "name": "Caramel Waffle Cream",
+        "price": "200,00₺",
+        "image": "/images/coffee/Caramel-Waffle.png",
+        "type": "drink"
+      }
+    ],
+    "Frozen": [
+      {
+        "id": 23,
+        "name": "Mango Frozen",
+        "price": "200,00₺",
+        "image": "/images/coffee/Mango.jpg",
+        "type": "drink"
+      },
+      {
+        "id": 24,
+        "name": "Redberry Frozen",
+        "price": "200,00₺",
+        "image": "/images/coffee/Redberry.jpg",
+        "type": "drink"
+      },
+      {
+        "id": 25,
+        "name": "Strawberry Frozen",
+        "price": "200,00₺",
+        "image": "/images/coffee/Strawberry.jpg",
+        "type": "drink"
+      }
+    ]
+  },
+  "yesenmenu": {
+    "Burgerler": [
+      {
+        "id": 1,
+        "name": "Klasik Burger",
+        "price": "1,00₺",
+        "image": "/images/yesen/Klasik.jpg",
+        "type": "burger"
+      },
+      {
+        "id": 2,
+        "name": "Piliç Burger",
+        "price": "300,00₺",
+        "image": "/images/yesen/Pilic.jpg",
+        "type": "burger"
+      },
+      {
+        "id": 3,
+        "name": "Cheeseburger Maxi",
+        "price": "300,00₺",
+        "image": "/images/yesen/Cheeseburger-Maxi.jpg",
+        "type": "burger"
+      },
+      {
+        "id": 4,
+        "name": "Mantarlım Burger Maxi",
+        "price": "300,00₺",
+        "image": "/images/yesen/Mantarlım-Burger-Maxi.jpg",
+        "type": "burger"
+      },
+      {
+        "id": 5,
+        "name": "Patlıcanlım Burger Maxi",
+        "price": "300,00₺",
+        "image": "/images/yesen/Patlıcanlım-Burger-Maxi.jpg",
+        "type": "burger"
+      },
+      {
+        "id": 6,
+        "name": "Acılım Burger Maxi",
+        "price": "300,00₺",
+        "image": "/images/yesen/Acılım-Burger-Maxi.jpg",
+        "type": "burger"
+      },
+      {
+        "id": 7,
+        "name": "Kasap Burger Maxi",
+        "price": "300,00₺",
+        "image": "/images/yesen/Kasap-Burger-Maxi.jpg",
+        "type": "burger"
+      },
+      {
+        "id": 8,
+        "name": "Steak Burger",
+        "price": "300,00₺",
+        "image": "/images/yesen/Steak-Burger.jpg",
+        "type": "burger"
+      },
+      {
+        "id": 9,
+        "name": "Yesen Special Burger",
+        "price": "300,00₺",
+        "image": "/images/yesen/Yesen-Special-Burger.jpg",
+        "type": "burger"
+      },
+      {
+        "id": 10,
+        "name": "Yesen Piliç Burger",
+        "price": "300,00₺",
+        "image": "/images/yesen/Yesen-Piliç-Burger.jpg",
+        "type": "burger"
+      },
+      {
+        "id": 11,
+        "name": "Yesen Gurme",
+        "price": "300,00₺",
+        "image": "/images/yesen/Yesen-Gurme.jpg",
+        "type": "burger"
+      },
+      {
+        "id": 12,
+        "name": "Çıtır Piliç Burger",
+        "price": "300,00₺",
+        "image": "/images/yesen/Çıtır-Piliç-Burger.jpg",
+        "type": "burger"
+      },
+      {
+        "id": 1746691118737,
+        "name": "BIZIM BURGER",
+        "price": "200,00",
+        "image": "",
+        "type": "burger"
+      }
+    ],
+    "Atıştırmalık": [
+      {
+        "id": 13,
+        "name": "Çıtır Top",
+        "price": "150,00₺",
+        "image": "/images/yesen/Çıtır-Top.jpg",
+        "type": "side"
+      },
+      {
+        "id": 14,
+        "name": "Çıtır Piliç Halka",
+        "price": "150,00₺",
+        "image": "/images/yesen/Çıtır-Piliç-Halka.jpg",
+        "type": "side"
+      },
+      {
+        "id": 15,
+        "name": "Çıtır Piliç Lokma",
+        "price": "150,00₺",
+        "image": "/images/yesen/Çıtır-Piliç-Lokma.jpg",
+        "type": "side"
+      },
+      {
+        "id": 16,
+        "name": "Patates Kızartması",
+        "price": "150,00₺",
+        "image": "/images/yesen/Patates-Kızartması.jpg",
+        "type": "side"
+      },
+      {
+        "id": 17,
+        "name": "Mini Mix",
+        "price": "150,00₺",
+        "image": "/images/yesen/Mini-Mix.jpg",
+        "type": "side"
+      }
+    ],
+    "İçecek": [
+      {
+        "id": 18,
+        "name": "Cola Turka",
+        "price": "30,00₺",
+        "image": "/images/yesen/Cola.png"
+      },
+      {
+        "id": 19,
+        "name": "Limonlu Soda",
+        "price": "30,00₺",
+        "image": "/images/yesen/Limonlu-Soda.png"
+      },
+      {
+        "id": 20,
+        "name": "Soda",
+        "price": "30,00₺",
+        "image": "/images/yesen/Soda.jpg"
+      },
+      {
+        "id": 21,
+        "name": "Ayran",
+        "price": "30,00₺",
+        "image": "/images/yesen/Ayran.png"
+      },
+      {
+        "id": 22,
+        "name": "Su",
+        "price": "10,00₺",
+        "image": "/images/yesen/Su.jpg"
+      }
+    ],
+    "Sos": [
+      {
+        "id": 23,
+        "name": "Heinz Ketçap",
+        "price": "10,00₺",
+        "image": "/images/yesen/Heinz-Ketçap.jpg",
+        "type": "simple"
+      },
+      {
+        "id": 24,
+        "name": "Heinz Mayonez",
+        "price": "10,00₺",
+        "image": "/images/yesen/Heinz-Mayonez.jpg",
+        "type": "simple"
+      },
+      {
+        "id": 25,
+        "name": "Heinz BBQ Sos",
+        "price": "10,00₺",
+        "image": "/images/yesen/Heinz-BBQ-Sos.jpg",
+        "type": "simple"
+      },
+      {
+        "id": 26,
+        "name": "Coloroda Ranch Sos",
+        "price": "10,00₺",
+        "image": "/images/yesen/Coloroda-Ranch-Sos.png",
+        "type": "simple"
+      },
+      {
+        "id": 27,
+        "name": "Coloroda Acı Sos",
+        "price": "10,00₺",
+        "image": "/images/yesen/Coloroda-Acı-Sos.png",
+        "type": "simple"
+      }
+    ]
+  }
+}

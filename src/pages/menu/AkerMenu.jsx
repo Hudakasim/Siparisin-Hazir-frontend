@@ -16,10 +16,10 @@ const AkerMenu = () => {
 
   // JSON dosyasını yükle
   useEffect(() => {
-    fetch("/Menuler/AkerMenuData.json")
-      .then(response => response.json())
-      .then(data => setAkerMenuData(data))
-      .catch(error => console.error("Menü verisi alınamadı:", error));
+	fetch("http://localhost:8081/akermenu")
+	  .then(response => response.json())
+	  .then(data => setAkerMenuData(data))
+	  .catch(error => console.error("Menü verisi alınamadı:", error));
   }, []);
 
   // Seçili kategoriye scroll yap

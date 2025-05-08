@@ -9,31 +9,44 @@ function AuthForm() {
   const [registerEmail, setRegisterEmail] = useState("");
   const [registerPassword, setRegisterPassword] = useState("");
 
+  const menuMap = {
+    "aker@gmail.com": "akermenu",
+    "coffee@gmail.com": "coffeemenu",
+    "yesen@gmail.com": "yesenmenu"
+	};
   const handleLogin = (e) => {
     e.preventDefault();
 
-    axios
-      .get(`http://localhost:8080/users?email=${loginEmail}&password=${loginPassword}`)
-      .then((response) => {
-        if (response.data.length > 0) {
-          const user = response.data[0];
+	axios
+	.get(`http://localhost:8080/users?email=${loginEmail}&password=${loginPassword}`)
+	.then((response) => {
+	  if (response.data.length > 0) {
+		const user = response.data[0];
 
-          // Kullanıcı adı (username) varsa onu kaydet
-          const displayName = user.username;
+		const displayName = user.username;
+		const menuName = menuMap[user.email];
+		localStorage.setItem("user", JSON.stringify({ name: displayName }));
+		localStorage.setItem("userEmail", loginEmail);
 
-          localStorage.setItem("user", JSON.stringify({ name: displayName }));
+		// admin kontrolü burada olacak
+		if (menuName) {
+			window.location.href = `/admin-menu/${menuName}`;
 
-          alert("Giriş başarılı!");
+		} else {
+			window.location.href = "/";
+		}
 
-          window.location.href = "/";
-        } else {
-          alert("E-posta veya şifre yanlış!");
-        }
-      })
-      .catch((error) => {
-        console.error("Hata:", error);
-      });
+		alert("Giriş başarılı!");
+
+	  } else {
+		alert("E-posta veya şifre yanlış!");
+	  }
+	})
+	.catch((error) => {
+	  console.error("Hata:", error);
+	});
   };
+
 
   const handleRegister = (e) => {
     e.preventDefault();

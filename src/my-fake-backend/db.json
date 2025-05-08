@@ -5,6 +5,24 @@
       "username": "Huda",
       "email": "GGG@mail.com",
       "password": "8520"
+    },
+    {
+      "id": "4bf3",
+      "username": "Aker",
+      "email": "admin@example.com",
+      "password": "1234"
+    },
+    {
+      "id": "b73e",
+      "username": "aker cafe",
+      "email": "aker@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "4d62",
+      "username": "Yesen",
+      "email": "yesen@gmail.com",
+      "password": "1234"
     }
   ],
   "cart": [],

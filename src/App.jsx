@@ -8,7 +8,7 @@ import YesenMenu from './pages/menu/YesenMenu';
 import Login from "./pages/Login";
 import Sepet from './pages/Sepet';
 import Orders from './pages/Orders';
-
+import AdminMenuEditor from "./pages/AdminPanel";
 import './styles/style.css';
 
 // Background kontrolü yapan component
@@ -59,7 +59,8 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/sepet" element={<Sepet />} />
 		  <Route path="/orders" element={<Orders />} />
-        </Routes>
+		  <Route path="/admin-menu/:menuName" element={<AdminMenuEditor />} />
+		</Routes>
       </BackgroundManager>
     </Router>
   );

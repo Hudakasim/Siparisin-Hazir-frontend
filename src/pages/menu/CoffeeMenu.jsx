@@ -17,7 +17,7 @@ const CoffeeMenu = () => {
 
   // JSON'dan veri çek
   useEffect(() => {
-    fetch("/Menuler/CoffeeMenuData.json")
+    fetch("http://localhost:8081/coffeemenu")
       .then(response => response.json())
       .then(data => setMenuData(data))
       .catch(error => console.error("Menü verisi alınamadı:", error));

@@ -16,7 +16,7 @@ const YesenMenu = () => {
 
   // Menü verisini JSON'dan yükle
   useEffect(() => {
-    fetch("/Menuler/YesenMenuData.json")
+    fetch("http://localhost:8081/yesenmenu")
       .then(response => response.json())
       .then(data => setMenuData(data))
       .catch(error => console.error("Menü verisi alınamadı:", error));
