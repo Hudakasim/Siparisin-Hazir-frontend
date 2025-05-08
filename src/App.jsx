@@ -8,6 +8,7 @@ import YesenMenu from './pages/menu/YesenMenu';
 import Login from "./pages/Login";
 import Sepet from './pages/Sepet';
 import Orders from './pages/Orders';
+import ResetPassword from "./pages/ResetPassword";
 
 import './styles/style.css';
 
@@ -59,6 +60,8 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/sepet" element={<Sepet />} />
 		  <Route path="/orders" element={<Orders />} />
+      <Route path="/reset-password" element={<ResetPassword />} />
+
         </Routes>
       </BackgroundManager>
     </Router>

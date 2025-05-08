@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
+
+
+
 
 function AuthForm() {
   const [activeTab, setActiveTab] = useState("login");
@@ -94,7 +98,7 @@ function AuthForm() {
               required
             />
 
-            <a href="/">Şifremi Unuttum</a>
+            <Link to="/reset-password">Şifremi Unuttum</Link>
             <button type="submit" className="btn-primary">GİRİŞ YAP</button>
           </form>
         </div>
