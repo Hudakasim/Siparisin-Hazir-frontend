@@ -1,16 +1,56 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 function AuthForm() {
   const [activeTab, setActiveTab] = useState("login");
+  const [loginEmail, setLoginEmail] = useState("");
+  const [loginPassword, setLoginPassword] = useState("");
+  const [registerUsername, setRegisterUsername] = useState("");
+  const [registerEmail, setRegisterEmail] = useState("");
+  const [registerPassword, setRegisterPassword] = useState("");
 
   const handleLogin = (e) => {
     e.preventDefault();
-    alert("Giriş başarılı!");
+
+    axios
+      .get(`http://localhost:8080/users?email=${loginEmail}&password=${loginPassword}`)
+      .then((response) => {
+        if (response.data.length > 0) {
+          const user = response.data[0];
+
+          // Kullanıcı adı (username) varsa onu kaydet
+          const displayName = user.username;
+
+          localStorage.setItem("user", JSON.stringify({ name: displayName }));
+
+          alert("Giriş başarılı!");
+
+          window.location.href = "/";
+        } else {
+          alert("E-posta veya şifre yanlış!");
+        }
+      })
+      .catch((error) => {
+        console.error("Hata:", error);
+      });
   };
 
   const handleRegister = (e) => {
     e.preventDefault();
-    alert("Kayıt başarılı!");
+
+    axios
+      .post("http://localhost:8080/users", {
+        username: registerUsername, // Kullanıcı adı
+        email: registerEmail,       // E-posta
+        password: registerPassword
+      })
+      .then((response) => {
+        alert("Kayıt başarılı!");
+        setActiveTab("login");
+      })
+      .catch((error) => {
+        console.error("Hata:", error);
+      });
   };
 
   return (
@@ -37,10 +77,22 @@ function AuthForm() {
         <div className="form-section">
           <form onSubmit={handleLogin}>
             <label htmlFor="loginEmail">E-Posta</label>
-            <input type="email" id="loginEmail" required />
+            <input
+              type="email"
+              id="loginEmail"
+              value={loginEmail}
+              onChange={(e) => setLoginEmail(e.target.value)}
+              required
+            />
 
             <label htmlFor="loginPassword">Şifre</label>
-            <input type="password" id="loginPassword" required />
+            <input
+              type="password"
+              id="loginPassword"
+              value={loginPassword}
+              onChange={(e) => setLoginPassword(e.target.value)}
+              required
+            />
 
             <a href="/">Şifremi Unuttum</a>
             <button type="submit" className="btn-primary">GİRİŞ YAP</button>
@@ -51,14 +103,32 @@ function AuthForm() {
       {activeTab === "register" && (
         <div className="form-section">
           <form onSubmit={handleRegister}>
-            <label htmlFor="registerName">Ad Soyad</label>
-            <input type="text" id="registerName" required />
+            <label htmlFor="registerUsername">Kullanıcı Adı</label>
+            <input
+              type="text"
+              id="registerUsername"
+              value={registerUsername}
+              onChange={(e) => setRegisterUsername(e.target.value)}
+              required
+            />
 
             <label htmlFor="registerEmail">E-Posta</label>
-            <input type="email" id="registerEmail" required />
+            <input
+              type="email"
+              id="registerEmail"
+              value={registerEmail}
+              onChange={(e) => setRegisterEmail(e.target.value)}
+              required
+            />
 
             <label htmlFor="registerPassword">Şifre</label>
-            <input type="password" id="registerPassword" required />
+            <input
+              type="password"
+              id="registerPassword"
+              value={registerPassword}
+              onChange={(e) => setRegisterPassword(e.target.value)}
+              required
+            />
 
             <button type="submit" className="btn-primary">ÜYE OL</button>
           </form>

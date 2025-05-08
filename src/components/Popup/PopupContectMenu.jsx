@@ -4,15 +4,25 @@ const PopupContentAker = ({ onSelectionChange }) => {
   const [selectedOption, setSelectedOption] = useState(null);
   const [quantity, setQuantity] = useState(1);
 
-  const handleOptionChange = (option) => {
-    setSelectedOption(option);
+  const handleOptionChange = (event) => {
+    const value = event.target.value;
+
+    setSelectedOption({
+      size: value,
+    });
   };
 
   const increase = () => setQuantity(q => q + 1);
   const decrease = () => setQuantity(q => Math.max(1, q - 1));
 
   useEffect(() => {
-    onSelectionChange({ option: selectedOption, quantity });
+    if (selectedOption) {
+      onSelectionChange({
+        size: selectedOption.size,
+        extras: selectedOption.extras,
+        quantity
+      });
+    }
   }, [selectedOption, quantity, onSelectionChange]);
 
   return (
@@ -26,8 +36,8 @@ const PopupContentAker = ({ onSelectionChange }) => {
             id={option}
             name="aker-menu"
             value={option}
-            checked={selectedOption === option}
-            onChange={() => handleOptionChange(option)}
+            checked={selectedOption?.size === option}
+            onChange={handleOptionChange}
           />
           <label htmlFor={option}>{option}</label>
         </div>

@@ -45,6 +45,7 @@ html {
   display: flex;
   align-items: center;
 }
+
 .nav-links {
   display: flex;
   gap: 40px;
@@ -53,6 +54,16 @@ html {
   position: relative;
   left: -100px;  /* Bu ayarla gerçekten ortaya çekiyoruz */
 }
+
+.nav-links2 {
+	display: flex;
+	gap: 40px;
+	justify-content: left;
+	padding-left: 150px;
+	flex-grow: 1;
+	position: relative;
+	left: -100px;  /* Bu ayarla gerçekten ortaya çekiyoruz */
+  }
 
 .nav-links a {
   margin-left: 36px;
@@ -73,6 +84,7 @@ html {
   margin-right: 20px;
   margin-left: 10p;
 }
+
 
 .nav-icons a {
   font-size: 25px;
@@ -312,7 +324,7 @@ textarea.input {
 
 .input-container label {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 15px;
   transform: translateY(-40%);
   font-size: 0.9rem;
@@ -325,6 +337,48 @@ textarea.input {
   top: 0.5rem;
   transform: translateY(0);
 }
+
+.user-info {
+	position: relative;
+	display: inline-block;
+  }
+
+  .dropdown-menu {
+	position: absolute;
+	top: 25px;
+	left: 0;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	z-index: 999;
+	width: 170px;
+  }
+
+  .dropdown-menu a,
+  .dropdown-menu button {
+	text-decoration: none;
+	color: #333;
+	background: none;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	padding: 8px 12px;
+	border-radius: 4px;
+	display: block;      /* en önemli kısım bu */
+	font-size: 15px;
+  }
+
+  .dropdown-menu a:hover,
+  .dropdown-menu button:hover {
+	background-color: #f0f0f0;
+  }
+
+
 
 
 .input-container .input:focus + label,

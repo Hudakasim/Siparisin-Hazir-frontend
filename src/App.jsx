@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import YesenMenu from './pages/menu/YesenMenu';
 import Login from "./pages/Login";
 import Sepet from './pages/Sepet';
+import Orders from './pages/Orders';
 
 import './styles/style.css';
 
@@ -57,6 +58,7 @@ const App = () => {
           <Route path="/yesen" element={<YesenMenu />} />
           <Route path="/login" element={<Login />} />
           <Route path="/sepet" element={<Sepet />} />
+		  <Route path="/orders" element={<Orders />} />
         </Routes>
       </BackgroundManager>
     </Router>

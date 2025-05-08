@@ -5,7 +5,7 @@ const OrderSummary = ({ total, orderNote, setOrderNote, onSubmitOrder }) => {
     <div className="card">
       <h3>Sipariş Notu</h3>
       <textarea
-        placeholder="Ekstra ketçap,mayonez,soğansız vb."
+        placeholder="Ekstra ketçap, mayonez, soğansız vb."
         value={orderNote}
         onChange={(e) => setOrderNote(e.target.value)}
       ></textarea>
